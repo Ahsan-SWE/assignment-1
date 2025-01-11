@@ -485,3 +485,58 @@
   gap: 32px;
   align-self: stretch;
 }
+.news-section {
+  align-self: stretch;
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+.news-sub-des {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  align-self: stretch;
+  padding-bottom: 32px;
+}
+.sat-2-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: 'Fira Sans';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+.sat-2-des {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  align-self: stretch;
+}
+.sat-2-img {
+  border-radius: 24px;
+  background: url('../images/satelite.png') lightgray 50% / cover no-repeat;
+  width: 408px;
+  height: 306px;
+}
+.sat-2-pro-div {
+  border-radius: 24px;
+  background: #fff;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  margin-top: 24px;
+}
