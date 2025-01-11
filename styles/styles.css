@@ -112,6 +112,10 @@
 
 /* my code */
 
+.body-section {
+  background: #f5f5f5;
+}
+
 .nav-title {
   color: #0e0e0e;
   font-family: 'Fira Sans';
@@ -141,14 +145,14 @@
   margin-bottom: 20px;
 }
 .hero-section {
+  border-radius: 24px;
+  background: #c6e4d6;
   display: flex;
   width: 1280px;
   padding: 80px 100px;
   justify-content: center;
   align-items: center;
   gap: 64px;
-  border-radius: 24px;
-  background: #c6e4d6;
 }
 .hero-img {
   margin-left: 60px;
@@ -254,7 +258,8 @@
   flex: 1 0 0;
   border-radius: 16px;
   border: 0px solid #5490f5;
-  background: rgba(84, 144, 245, 0.2);
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .div-gap-1 {
   border-radius: 16px;
@@ -337,4 +342,146 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.qt-img {
+  position: absolute;
+  top: -23px;
+  width: 64px;
+  height: 64px;
+}
+.qt-description {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.qt-title {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: 'Fira Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+}
+
+.qt-sub-title {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.6);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.qt-div {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  display: flex;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+.three-div-welcome {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+  margin-top: 80px;
+}
+.three-div-description {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.third-section {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.satelite-img-1 {
+  border-radius: 24px;
+  background: url('../images/satelite.png') lightgray 50% / cover no-repeat;
+  width: 408px;
+  height: 306px;
+}
+.satelite-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: 'Fira Sans';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+  margin-top: 48px;
+}
+.aljazera-img-1 {
+  width: 134px;
+  height: 40px;
+}
+.date {
+  padding-left: 10px;
+}
+.date-time {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.satelite-div-1 {
+  border-radius: 24px;
+  background: #fff;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+.satelite-1-sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.satelite-btn-1 {
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background: #006a50;
+  display: flex;
+  padding: 13px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.satelite-pro-div {
+  border-radius: 24px;
+  background: #fff;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
 }
