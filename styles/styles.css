@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .fira-sans-thin {
   font-family: 'Fira Sans', serif;
   font-weight: 100;
@@ -106,6 +110,8 @@
   font-style: italic;
 }
 
+/* my code */
+
 .nav-title {
   color: #0e0e0e;
   font-family: 'Fira Sans';
@@ -119,10 +125,216 @@
   font-family: 'Fira Sans';
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  padding: 15px 30px;
 }
 .nav-bar {
   display: flex;
-  margin-left: 160px;
+
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.header-section {
+  margin-bottom: 20px;
+}
+.hero-section {
+  display: flex;
+  width: 1280px;
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+.hero-img {
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+.hero-title {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.hero-welcome {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.5);
+  font-family: 'Fira Sans';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero-btn {
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  background: #006a50;
+}
+.pillar-div {
+  display: flex;
+  width: 302px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+.pillar-img {
+  width: 64px;
+  height: 64px;
+}
+.pillar-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: 'Fira Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.pillar-description {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.pillar-all-div {
+  display: flex;
+  width: 1280px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+.second-section {
+  margin-top: 80px;
+}
+.sec-div-1 {
+  margin-bottom: 32px;
+}
+.pillar-welcome {
+  align-self: stretch;
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.three-div {
+  display: flex;
+  padding: 32px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+}
+.div-gap-1 {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+.div-gap-2 {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.div-gap-3 {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 16px;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+}
+
+.btn-lrn-more-1 {
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background: #5490f5;
+  display: flex;
+  padding: 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.btn-lrn-more-2 {
+  border-radius: 8px;
+  background: #09a15c;
+  display: flex;
+  padding: 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.btn-lrn-more-3 {
+  border-radius: 8px;
+  background: #ffc239;
+  display: flex;
+  padding: 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
