@@ -837,4 +837,39 @@ hr {
   flex: 1 0 0;
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgba(255, 255, 255, 0.1);
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.agr-btn {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  border: 1px solid #0e0e0e;
+  background: #c6e4d6;
+  display: flex;
+  padding: 10px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.opi-choose-2 {
+  display: flex;
+  height: 92px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
 }
