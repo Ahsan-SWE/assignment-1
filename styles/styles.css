@@ -148,12 +148,13 @@
   border-radius: 24px;
   background: #c6e4d6;
   display: flex;
-  width: 1280px;
+
   padding: 80px 100px;
   justify-content: center;
   align-items: center;
   gap: 64px;
-  align-items: flex-start;
+  align-items: center;
+  display: 100%;
 }
 .hero-img {
   background-size: cover;
@@ -229,7 +230,7 @@
 }
 .pillar-all-div {
   display: flex;
-
+  justify-content: center;
   flex-direction: row;
   align-items: flex-start;
   gap: 32px;
@@ -550,4 +551,234 @@
 
 .lh-sat-3 {
   margin-top: 24px;
+}
+
+.donate-div-title {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: 'Fira Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+.donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 1104px;
+}
+.donate-nav-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.donate-btn {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.donate-btn-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #c6e4d6;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.donate-all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.placeholder-des {
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  display: flex;
+  width: 1032px;
+  padding: 20px 40px;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: 'Fira Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.donate-btn-done {
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #006a50;
+  margin-top: 32px;
+}
+.donate-l-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div-donate {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.sub-title {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: 'Fira Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sub-des {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.email-hold {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+.email-div {
+  display: flex;
+  width: 600px;
+  padding: 18px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+}
+.spam-alart {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sub-btn {
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sub-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.sub-div-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.sub-main-div {
+  border-radius: 24px;
+  background: #c6e4d6;
+  display: flex;
+
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin-top: 80px;
+}
+.footer-copyright {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+hr {
+  background: rgba(14, 14, 14, 0.1);
+  flex-direction: row;
+  height: 1px;
+  width: 1600px;
+}
+.fb-icon {
+  height: 24px;
+  flex: 1 0 0;
+}
+.ins-icno {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.x-icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+}
+.icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 23px;
+}
+.footer-div {
+  background: #fff;
+  display: flex;
+  padding: 50px 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  margin-top: 80px;
 }
