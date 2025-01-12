@@ -199,7 +199,7 @@
   width: 302px;
   padding: 24px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -344,11 +344,11 @@
   font-weight: 600;
   line-height: normal;
 }
+
 .qt-img {
-  position: absolute;
-  top: -23px;
   width: 64px;
   height: 64px;
+  position: absolute;
 }
 .qt-description {
   align-self: stretch;
@@ -358,6 +358,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+  background: image('../images/quote-bg.png');
 }
 .qt-title {
   align-self: stretch;
@@ -652,6 +653,7 @@
   flex-direction: column;
   align-items: center;
   gap: 32px;
+  justify-content: center;
 }
 .sub-title {
   color: #0e0e0e;
@@ -781,4 +783,58 @@ hr {
   gap: 32px;
   align-self: stretch;
   margin-top: 80px;
+}
+.opi-title {
+  align-self: stretch;
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 80px;
+}
+.ques {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.select {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.opi-box-head {
+  display: flex;
+  padding: 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #c6e4d6;
+  justify-content: center;
+  justify-content: space-between;
+}
+.opi-choose {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  display: flex;
+  height: 92px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
 }
